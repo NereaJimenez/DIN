@@ -5,9 +5,6 @@
  */
 package helloworldwithtiers.view;
 
-import helloworldwithtiers.view.SwingViewImplementation;
-import helloworldwithtiers.view.View;
-
 /**
  *
  * @author Nerea Jimenez
@@ -15,6 +12,6 @@ import helloworldwithtiers.view.View;
 public class ViewFactory {
     
     public static View getView(){
-        return new SwingViewImplementation();
+        return new JavaFXViewImplementation();
     }
 }

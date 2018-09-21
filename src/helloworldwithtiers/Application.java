@@ -23,11 +23,11 @@ public class Application {
     public static void main(String[] args) {
         
                
-        View view = ViewFactory.getView();
-        Model model = ModelFactory.getModel();
+        View view = ViewFactory.getView(); //Creamos la vista
+        Model model = ModelFactory.getModel(); //Creamos el modelo
        
-        Controller controller = new Controller();
-        controller.run(model, view);
+        Controller controller = new Controller(); 
+        controller.run(model, view); //Le pasamos la vista y el modelo al mètodo run del Controlador
     }
     
 }
